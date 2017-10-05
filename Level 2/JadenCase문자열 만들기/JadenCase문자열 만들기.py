@@ -4,8 +4,7 @@ def Jaden_Case(s):
     for i in range(len(s.split(' '))):
         if s.split(' ')[i]:
             rst += s.split(' ')[i][0].upper()
-            if len(s.split(' ')[i]) > 1:
-                rst += str(s.split(' ')[i][1:].lower())
+            rst += str(s.split(' ')[i][1:].lower())
             if i != len(s.split(' ')) - 1:
                 rst += " "
     return rst
